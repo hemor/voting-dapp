@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>Voting DAPP</title>
+  <style>
+    .cursor-pointer {
+      cursor: pointer;
+    }
+    .title-heading {
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="title-heading text-center text-uppercase">Decentralized Voting Application</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <table class="table table-bordered">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Candidate Name</th>
+              <th scope="col">Vote Count</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="mark-otto">
+              <th scope="row">1</th>
+              <td>Mark Otto</td>
+              <td class="vote-count">0</td>
+              <td>
+                <button class="btn btn-primary btn-sm vote-button cursor-pointer">Vote</button>
+              </td>
+            </tr>
+            <tr data-name="jacob-thornton">
+              <th scope="row">2</th>
+              <td>Jacob Thornton</td>
+              <td class="vote-count">0</td>
+              <td>
+                <button class="btn btn-primary btn-sm vote-button cursor-pointer">Vote</button>
+              </td>
+            </tr>
+            <tr data-name="larry-bird">
+              <th scope="row">3</th>
+              <td>Larry Bird</td>
+              <td class="vote-count">0</td>
+              <td>
+                <button class="btn btn-primary btn-sm vote-button cursor-pointer">Vote</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="./js/web3.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
